@@ -5,14 +5,13 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app/index.js"
+    "start": "nodemon app.js"
   },
   "author": "Leon Daniel Thorne <ldthorne@brandeis.edu>",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.14.1",
     "express": "^4.13.3",
-    "gcloud": "^0.25.0",
     "path": "^0.12.7",
     "swig": "^1.4.2"
   },
